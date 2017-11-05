@@ -1,5 +1,7 @@
+#!/bin/bash
+
 #shutdown display
-vbetools dpms off
+vbetool dpms off
 
 #turn on display
-#vbetools dpms on
+#vbetool dpms on
