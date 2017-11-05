@@ -1,0 +1,5 @@
+#shutdown display
+vbetools dpms off
+
+#turn on display
+#vbetools dpms on
