@@ -2,7 +2,7 @@
 a short tutorial to shudown the display of a laptop, which runs ubuntu server 16.04 LTS 
 
 1. install vbetool: "sudo apt-get vbetool"
-2. create file /etc/sudoers.d/blackout: sudo nano /etc/sudoers.d/blackout
+2. create file /etc/sudoers.d/blackout: sudo visudo -f /etc/sudoers.d/blackout
 3. edit /etc/sudoers.d/blackout: "<USERNAME> ALL=NOPASSWD:/usr/sbin/vbetool"
 4. create script: "nano /script/blackout.sh":
     #!/bin/bash
