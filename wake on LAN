@@ -1,0 +1,5 @@
+# 1. install ethtool
+# 2. detect network interface using 'ifconfig link'
+# 3. set the use of ethtool to nopasswd
+
+sudo ethtool -s <NETWORKINTERFACE> wol g
